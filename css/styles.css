@@ -2,8 +2,8 @@
 /*
    sample start file for final project - educational use only
    
-   Author:   
-   Date:     
+   Author:  Carlos Austin Jr 
+   Date:     7/24/24
    
   
 
@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-color: blue;
 }
 
 #container {
@@ -53,15 +53,15 @@ nav ul {
 
 nav ul li a {
     padding: 5px;
-    color: gray;
+    color: black;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: gray;
+    background: blue;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 #main {
@@ -71,7 +71,7 @@ nav ul li a:hover {
     color: black;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    background-image: url(images/EVOLVE.png); 
 }
 
 #main p {
@@ -109,15 +109,16 @@ h3 {
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+	text-align:center;
 }
 
 footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: grey;
     clear: both;
-    color: wheat;
+    color: white;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -129,6 +130,7 @@ footer {
     margin-bottom: 10px;
     border: 2px solid;
     border-radius: 25px;
+	
 }/* navigation for footer */
 footer a:link {
     color: white;
@@ -143,4 +145,10 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.sample {
+	text-align:center;
+	width: 300;
+	height: 200;
 }
