@@ -109,7 +109,7 @@ h3 {
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
-	text-align:center;
+
 }
 
 table, th, td {
@@ -161,7 +161,7 @@ footer a:hover {
 	height: 200px;
 }
 
-img/EvolveShoe1Blue.png {
+img[Attributes Style] {
     width: 200px;
     height: 100px;
 	text-align: center;
